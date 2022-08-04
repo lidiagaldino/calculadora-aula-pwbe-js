@@ -17,7 +17,7 @@ entradaDados.question('Digite o primeiro número: ', function (valor1){
     entradaDados.question('Digite o segundo número: ', function (valor2){
         let numero2 = parseFloat(valor2);
 
-        entradaDados.question('Escolha a operação a ser calculada: Somar[+], Subtrair[-], Multiplicar[*], Dividir[/] ', function(option){
+        entradaDados.question('Escolha a operação a ser calculada: Somar[+], Subtrair[-], Multiplicar[*], Dividir[/], Radiciação, Potenciação[ˆ]  ', function(option){
             let operacao = option.toLowerCase();
 
             if (resultado = calcular(numero1, numero2, operacao)) {
